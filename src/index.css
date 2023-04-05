@@ -17,16 +17,28 @@ body {
 p {
   margin: 20px 0;
 }
-button {
+.btn{
   border: 0;
   padding: 8px;
   border-radius: 4px;
   color: white;
   background: var(--primary);
   cursor: pointer;
+  text-decoration : none;
 }
 
 /* navbar */
+
+.nav_layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: auto;
+}
+
+.nav_heading{
+  border-bottom: #bc4123 3px solid;
+}
 
 
 /* page content */
