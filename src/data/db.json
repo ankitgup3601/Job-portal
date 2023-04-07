@@ -1,0 +1,80 @@
+{
+  "careers": [
+    {
+      "id": 1,
+      "title": "Senior React Developer",
+      "salary": 50000,
+      "location": "London, UK",
+      "description": "Develop and maintain complex React applications, ensuring high performance and scalability while leading and mentoring a team of developers."
+    },
+    {
+      "id": 2,
+      "title": "Plumber",
+      "salary": 40000,
+      "location": "Bowser's Castle",
+      "description": "Install, maintain, and repair plumbing systems and fixtures in residential and commercial buildings, ensuring compliance with relevant codes and standards."
+    },
+    {
+      "id": 3,
+      "title": "Gym Leader",
+      "salary": 75000,
+      "location": "Kanto Region",
+      "description": "Lead gym activities and supervise gym staff.Assist and motivate gym members to achieve their fitness goals."
+    },
+    {
+      "id": 4,
+      "title": "Vue Developer",
+      "salary": 40000,
+      "location": "Liverpool, UK",
+      "description" : "Develop and maintain web applications using Vue.js.Collaborate with cross-functional teams to design, develop, and deploy new features."
+    },
+    {
+      "id": 5,
+      "title": "Tutorial Maker",
+      "salary": 35000,
+      "location": "Manchester, UK",
+      "description" : "Create informative and engaging tutorials on various topics.Develop comprehensive and easy-to-follow instructional materials for learners of all levels."
+    },
+    {
+      "id": 6,
+      "title": "Website Manager",
+      "salary": 50000,
+      "location": "Berlin, Germany",
+      "description" : "The website manager is responsible for overseeing the operation and maintenance of a website, ensuring that it is functioning properly, up-to-date, and user-friendly. "
+    },
+    {
+      "id": 7,
+      "title": "Food Tester",
+      "salary": 30000,
+      "location": "London, UK",
+      "description" : "Taste and evaluate food samples to ensure quality and consistency. Provide detailed feedback to food production teams."
+    }
+  ], 
+  "Questions" : [
+    {
+      "id" : 1,
+      "question" : " How do I create an account on a job portal?",
+      "Answer" : "To create an account on a job portal, you typically need to visit the website and click on the 'Sign Up' or 'Create Account' button. You will then be asked to provide your name, email address, and create a password. Some job portals may also ask for additional information such as your work experience, education, and skills."
+    },
+    {
+      "id" : 2,
+      "question" : "How do I search for jobs on a job portal?",
+      "Answer" : "To search for jobs on a job portal, you can typically use the search bar or filters to refine your search criteria. You can search by job title, location, industry, salary range, and other relevant factors. Some job portals also offer advanced search options that allow you to further refine your search."
+    },
+    {
+      "id" : 3,
+      "question" : "How do I apply for a job on a job portal?",
+      "Answer" : "To apply for a job on a job portal, you typically need to create a profile and upload your resume and cover letter. Some job portals may also require you to complete an online application form or answer specific questions related to the job. Once you have submitted your application, the employer will review it and may contact you for an interview or further information."
+    },
+    {
+      "id" : 4,
+      "question" : " How can I improve my chances of getting hired through a job portal?",
+      "Answer" : "To improve your chances of getting hired through a job portal, it's important to tailor your resume and cover letter to the job you are applying for, highlighting your relevant skills and experience. You should also make sure your online profile is complete and up-to-date, and that you have a professional online presence. Additionally, networking and reaching out to potential employers directly can also help you stand out from other candidates."
+    },
+    {
+      "id" : 5,
+      "question" : "How can I stay updated on new job postings on a job portal?",
+      "Answer" : "To stay updated on new job postings on a job portal, you can set up job alerts or notifications that will notify you when new jobs are posted that match your search criteria. You can also regularly check the job portal's website or follow them on social media to stay informed about new job opportunities."
+    }
+  ]
+}

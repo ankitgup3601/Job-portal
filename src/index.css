@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 :root {
   --primary: #bc4123;
@@ -11,20 +11,49 @@ body {
   background: var(--secondary);
 }
 * {
-  color: #fff;
+  /* color: #fff; */
   margin: 0;
 }
 p {
   margin: 20px 0;
+  color: white;
 }
-.btn{
+.btn {
   border: 0;
   padding: 8px;
   border-radius: 4px;
   color: white;
-  background: var(--primary);
   cursor: pointer;
-  text-decoration : none;
+  text-decoration: none;
+}
+.btn--outline {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.btn--dark {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.2s;
+  background-color: #bc4123;
+}
+
+.btn--outline:hover {
+  background-color: #bc4123;
+}
+
+.btn:focus {
+  background-color: var(--primary);
 }
 
 /* navbar */
@@ -34,26 +63,169 @@ p {
   justify-content: space-between;
   align-items: center;
   gap: auto;
+  color: white;
 }
 
-.nav_heading{
+.navbar_main {
+  margin-top: 100px;
+}
+
+.nav_heading {
   border-bottom: #bc4123 3px solid;
 }
 
-
 /* page content */
-
 
 /* help layout */
 
+.contact_section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 75px;
+}
 
 /* faq */
 
-
 /* careers list */
 
+.card {
+  margin: 35px 0px 35px 0px;
+  padding: 25px 20px 25px 20px;
+  background-color: #202946;
+}
 
 /* careers details */
 
+.job_title {
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
 
+.job_title:hover {
+  color: #bc4123;
+}
+
+.job_location {
+  margin: 0px;
+  padding: 0px;
+}
 /* breadcrumbs */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form input {
+  margin-left: 50px;
+}
+
+.form button {
+  width: 10%;
+  font-size: 18px;
+  margin: auto;
+}
+
+.form_outlook {
+  text-align: center;
+  border: 2px solid white;
+  padding: 30px;
+  border-radius: 3px;
+  background: linear-gradient(
+    90deg,
+    rgba(43, 52, 82, 1) 54%,
+    rgba(51, 60, 89, 1) 72%,
+    rgba(74, 82, 108, 1) 87%,
+    rgba(121, 127, 146, 1) 96%,
+    rgba(162, 165, 179, 1) 100%,
+    rgba(123, 128, 147, 1) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.form_heading {
+  margin-bottom: 30px;
+  color: #bc4123;
+}
+
+.input_section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input_section input {
+  width: 50%;
+  padding: 5px;
+  background: none;
+  border: 2px solid white;
+  border-radius: 2px;
+  font-family: "poppins";
+  font-size: 12px;
+  color: #fff;
+}
+
+.input_section label {
+  font-size: 17px;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.query{
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.date{
+  margin: 0px;
+  font-size: 15px;
+  color: hsl(0, 6%, 73%);
+}
+
+.queries_section{
+  margin-top: 50px;
+}
+
+h1, h2{
+  color: white;
+}
+
+.error_section{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.error_section h1{
+  width: 50%;
+  margin: auto;
+}
+
+.error_opt{
+  display: flex;
+  gap: 50px;
+}
+
+.err-btn{
+  font-weight: 600;
+  font-size: 18px;
+  transition: 0.1s ease-in-out;
+}
+
+.err-btn:hover{
+  border: 3px solid white;
+}
