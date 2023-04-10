@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useFetcher, useLoaderData } from "react-router-dom";
 import { toast } from "react-toastify";
 import { addQuery, fetchData, removeQuery } from "../helper";
@@ -15,7 +15,6 @@ export const contactAction = async ({ request }) => {
     toast.success("Query added successfully!");
   }
   if (_action === "deleteQuery") {
-    console.log(values.btn);
     removeQuery(values.btn);
   }
   return null;
@@ -26,6 +25,11 @@ const Contact = () => {
   const fetcher = useFetcher();
   const formRef = useRef();
   const FocusRef = useRef();
+
+  useEffect(()=>{
+    formRef.current.reset()
+    FocusRef.current.focus()
+  }, [fetcher])
 
   return (
     <>

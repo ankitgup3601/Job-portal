@@ -1,6 +1,18 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
+import { useLoaderData } from "react-router-dom";
+import data from "../data/db.json";
+import { Rating } from "@mui/material";
+export const homeLoader = () => {
+  const reviews = data.reviews;
+  // console.log(reviews)
+  return reviews;
+};
 
 const Home = () => {
+  const reviews = useLoaderData() ?? [];
+  console.log(reviews);
   return (
     <div className="_home">
       <h1>Welcome!</h1>
@@ -31,6 +43,33 @@ const Home = () => {
         for connecting job seekers with potential employers, making the job
         search and recruitment process more streamlined and effective.
       </p>
+
+      <h1 style={{marginTop : "100px"}}>Reviews</h1>
+      <div className="card" style={{ display: "flex", overflow :  "scroll" }}>
+        {reviews.map((rev, index) => {
+          return (
+            <div className="review-card" key={index}>
+              <div
+                style={{ display: "flex", alignItems: "center", gap: "15px" }}
+              >
+                <img
+                  src={rev.picture_url}
+                  width="60px"
+                  height="60px"
+                  style={{ borderRadius: "50%" }}
+                />
+                <div>
+                  <p style={{ margin: "0px" }}>{rev.name}</p>
+                  <Rating value={rev.rating} readOnly />
+                </div>
+              </div>
+              <p>
+                {rev.comment}
+              </p>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };

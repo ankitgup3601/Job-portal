@@ -4,7 +4,7 @@ import { CareerDetails, careerPageLoader } from "./Components/CareerDetails";
 import Careers from "./Components/Careers";
 import Contact, { contactAction, contactLoader } from "./Components/Contact";
 import FaQs, { FaqLoader } from "./Components/FaQs";
-import Home from "./Components/Home";
+import Home, { homeLoader } from "./Components/Home";
 
 import Main from "./Layout/Main";
 import CareerPage from "./pages/CareerPage";
@@ -24,6 +24,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+        loader : homeLoader
       },
       {
         path: "about",

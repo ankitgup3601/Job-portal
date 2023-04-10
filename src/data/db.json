@@ -76,5 +76,71 @@
       "question" : "How can I stay updated on new job postings on a job portal?",
       "Answer" : "To stay updated on new job postings on a job portal, you can set up job alerts or notifications that will notify you when new jobs are posted that match your search criteria. You can also regularly check the job portal's website or follow them on social media to stay informed about new job opportunities."
     }
+  ],
+  "reviews": [
+    {
+      "name": "John Smith",
+      "picture_url": "https://i.pravatar.cc/150?img=1",
+      "date": "2022-06-15",
+      "rating": 4.5,
+      "comment": "The food was delicious and the service was excellent. Highly recommend!"
+    },
+    {
+      "name": "Jane Doe",
+      "picture_url": "https://i.pravatar.cc/150?img=2",
+      "date": "2022-07-01",
+      "rating": 3.5,
+      "comment": "The food was okay, but nothing special. The prices were a bit high for what you get."
+    },
+    {
+      "name": "Bob Johnson",
+      "picture_url": "https://i.pravatar.cc/150?img=3",
+      "date": "2022-08-10",
+      "rating": 5,
+      "comment": "Wow, this place exceeded my expectations! The food was amazing and the staff was so friendly. Will definitely be back!"
+    },
+    {
+      "name": "Emily Brown",
+      "picture_url": "https://i.pravatar.cc/150?img=4",
+      "date": "2022-09-05",
+      "rating": 2,
+      "comment": "I was really disappointed with my meal. The flavors were bland and the portion sizes were small. Won't be returning."
+    },
+    {
+      "name": "David Lee",
+      "picture_url": "https://i.pravatar.cc/150?img=5",
+      "date": "2022-09-15",
+      "rating": 4,
+      "comment": "Good food and service, but the noise level was a bit high for my liking."
+    },
+    {
+      "name": "Amy Chen",
+      "picture_url": "https://i.pravatar.cc/150?img=6",
+      "date": "2022-10-01",
+      "rating": 5,
+      "comment": "One of the best meals I've had in a long time! Everything was fresh and flavorful. Can't wait to come back!"
+    },
+    {
+      "name": "Michael Davis",
+      "picture_url": "https://i.pravatar.cc/150?img=7",
+      "date": "2022-11-05",
+      "rating": 3,
+      "comment": "Decent food, but the service was slow and the atmosphere was a bit too dark for my liking."
+    },
+    {
+      "name": "Sara Patel",
+      "picture_url": "https://i.pravatar.cc/150?img=8",
+      "date": "2022-11-20",
+      "rating": 4.5,
+      "comment": "Really enjoyed my meal here! The flavors were well-balanced and the presentation was beautiful. Will definitely recommend to friends."
+    },
+    {
+      "name": "Tom Wilson",
+      "picture_url": "https://i.pravatar.cc/150?img=9",
+      "date": "2022-12-10",
+      "rating": 2.5,
+      "comment": "The food was average, but the prices were quite high. Not sure if I'd come back."
+    }
   ]
+
 }

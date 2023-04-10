@@ -197,7 +197,7 @@ input:focus {
   margin-top: 50px;
 }
 
-h1, h2{
+h1, h2, h3{
   color: white;
 }
 
@@ -228,4 +228,11 @@ h1, h2{
 
 .err-btn:hover{
   border: 3px solid white;
+}
+
+.review-card{
+  background-color:#121727;
+  min-width: 30%;
+  padding: 10px;
+  margin: 10px;
 }
